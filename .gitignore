@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Large model binary -- too big for GitHub (393 MB)
+models/rf_model.pkl
+
+# Raw dataset -- large source file
+atp_tennis.csv
+
+# Generated data splits (reproducible via 01_prepare_data.py)
+data/train.csv
+data/val.csv
+data/test.csv
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
